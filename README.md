@@ -1,4 +1,7 @@
 # Guía básica de Git y GitHub
+![Logo de Git](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)
+
+
 
 ## Introducción
 
@@ -14,6 +17,17 @@
 - `git status` → muestra el estado del repositorio
 - `git log` → muestra el historial de commits
 
+## Comandos extra ✔
+
+- `git clone URL` → clona un repositorio remoto en local
+- `git pull` → descarga y actualiza cambios desde GitHub
+
+## Errores comunes ❌
+
+- Olvidar hacer commit
+- No añadir archivos con git add
+- No sincronizar con GitHub
+
 ## Flujo de trabajo
 
 1. Crear repositorio
@@ -21,7 +35,9 @@
 3. Hacer commit
 4. Subir a GitHub
 
-## Ejemplo práctico
+
+
+## Ejemplo práctico 🚀
 
 ```bash
 mkdir mi-proyecto
@@ -30,8 +46,5 @@ git init
 git add .
 git commit -m "primer commit"
 
-## Errores comunes
-
-- Olvidar hacer commit
-- No añadir archivos con git add
-- No sincronizar con GitHub
+```
+---
